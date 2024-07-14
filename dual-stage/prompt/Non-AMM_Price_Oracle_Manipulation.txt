@@ -1,0 +1,2 @@
+V1: tokens spent by the user during the swap process
+V2: the amount of tokens received by the user after the swap

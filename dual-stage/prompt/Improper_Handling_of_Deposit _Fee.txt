@@ -1,0 +1,3 @@
+V1: tokens spent by the user without any deductions
+V2: the net amount added to the user’s balance after deducting the deposit fee
+V3: the amount of deposit fee

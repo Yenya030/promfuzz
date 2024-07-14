@@ -1,0 +1,3 @@
+V1: contract variable for voting tokens
+V2: the number of votes cast by the user in this round
+S1: the first to execute a voting action

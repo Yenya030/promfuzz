@@ -1,0 +1,3 @@
+V1: sending address for token transfers
+V2: authorization array for token transfers
+V3: the amount of tokens being transferred
