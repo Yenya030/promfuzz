@@ -1,5 +1,11 @@
 # Agent Guide
 
+pip install -r requirements.txt  # The file was exported directly from my machine。
+
+sudo apt install libssl-dev libz3-dev pkg-config cmake build-essential clang-14
+
+Have already been run there is no need to run those commands. 
+
 This repository implements **PROMFUZZ**, a smart contract security analysis tool.
 PROMFUZZ uses LLM-driven analysis to generate invariants and a fuzzing engine to test EVM and Move smart contracts.
 
