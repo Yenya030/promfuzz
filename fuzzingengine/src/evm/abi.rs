@@ -187,7 +187,6 @@ where
 #[derive(Serialize, Deserialize, Clone, Debug, Default)]
 pub struct BoxedABI {
     /// ABI wrapper
-    // #[serde(with = "serde_traitobject")]
     pub b: Box<dyn ABI>,
     /// Function hash, if it is 0x00000000, it means the function hash is not
     /// set or this is to resume execution from a previous control leak
