@@ -21,7 +21,7 @@ use crate::{
 
 /// A trait for VM inputs that are sent to any smart contract VM
 pub trait VMInputT<VS, Loc, Addr, CI>:
-    Input + Debug + Clone + serde_traitobject::Serialize + serde_traitobject::Deserialize
+    Input + Debug + Clone + Serialize + DeserializeOwned
 where
     VS: Default + VMStateT,
     Addr: Debug + Clone + Serialize + DeserializeOwned,
